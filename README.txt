@@ -11,7 +11,7 @@ First run FB_Likes_to_iTunes.py in python and follow the directions on the promp
 The first prompt will ask if you want to use cached or live data by entering “yes” or “no” (if invalid input is given a help message will appear).
 If you enter “no” (use live data) another prompt will appear with directions for getting a Facebook api access token.
 After you get the access token copy and paste it into the terminal and press enter to finish running the program.
-After the program finishes running, a new file of iTunes media links called “(Facebook Username)_likes.csv” will be generated along with new cached data files (fb_data.json and iTunes_data.json) with information from this iteration of the program for future use.
+After the program finishes running, a new file of iTunes media links called “[Facebook Username]_likes.csv” will be generated along with new cached data files (fb_data.json and iTunes_data.json) with information from this iteration of the program for future use.
 If “yes” is selected (use cached data) the program will use cached data files from a previous iteration of the program in order to generate the csv file of iTunes media links.
 
 
